@@ -6,4 +6,4 @@ Implementations of Data Structures and Algorithms in Java.
   * [Karatsuba Multiplication](number-theory/karatsuba.java)
 
 ## License
-[(MIT LICENSE)](LICENSE)
+[(MIT License)](LICENSE)
