@@ -19,7 +19,7 @@ public class Karatsuba {
 		/* split the digit sequences about the middle */
 		long a = (long) (num1 / Math.pow(10, Math.round(m2)));
 		long b = (long) (num1 % Math.pow(10, Math.round(m2)));
-    long c = (long) (num2 / Math.pow(10, Math.round(m2)));
+    		long c = (long) (num2 / Math.pow(10, Math.round(m2)));
 		long d = (long) (num2 % Math.pow(10, Math.round(m2)));
 
 		/* 3 calls made to numbers approximately half the size */
@@ -27,7 +27,7 @@ public class Karatsuba {
 		long z1 = karatsuba(b, d);
 		long z2 = karatsuba(a+b, c+d);
 
-    return ((long) ((z0*Math.pow(10, Math.round(m)))+((z2-z1-z0)*Math.pow(10, Math.round(m2)))+z1));
+    		return ((long) ((z0*Math.pow(10, Math.round(m)))+((z2-z1-z0)*Math.pow(10, Math.round(m2)))+z1));
 	}
 
 }
