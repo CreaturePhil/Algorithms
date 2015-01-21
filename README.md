@@ -6,6 +6,7 @@ Implementations of Data Structures and Algorithms in Java.
   * [Karatsuba Multiplication](number-theory/Karatsuba.java)
 - [Sorting](sorting)
   * [Merge Sort](sorting/MergeSort.java)
+  * [Selection Sort](sorting/SelectionSort.java)
 
 ## License
 [(MIT License)](LICENSE)
