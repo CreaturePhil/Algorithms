@@ -1,7 +1,7 @@
 # Algorithms
 Implementations of Data Structures and Algorithms in Java.
 
-## Table of Content
+## Table of Contents
 - [Number Theory](number-theory)
   * [Karatsuba Multiplication](number-theory/Karatsuba.java)
 - [Sorting](sorting)
