@@ -4,7 +4,7 @@ public class SelectionSort {
 	
 	/**
 	 *  Selection Sort is an in-place comparison sort.
-	 *  It has O(n^2) time complexity.
+	 *  Selection Sort has O(n^2) time complexity.
 	 */
 	public int[] selection_sort(int[] arr) {
 		int min, temp;
