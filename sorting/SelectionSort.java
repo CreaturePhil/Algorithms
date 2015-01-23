@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class SelectionSort {
 	
@@ -8,7 +7,7 @@ public class SelectionSort {
 	 */
 	public int[] selection_sort(int[] arr) {
 		int min, temp;
-        /* find the min element in the unsorted array */
+        	/* find the min element in the unsorted array */
 		for (int i = 0; i < arr.length; i++) {
 		    /* assume the min is the first element */
 			min = i;
